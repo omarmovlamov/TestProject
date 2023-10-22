@@ -1,0 +1,85 @@
+.Content-head {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.Content-head div {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.c-card {
+  position: relative;
+  color: #fff;
+  width: calc(100% / 6);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.c-card h4 {
+  font-size: 1.5em;
+}
+.c-card p {
+  font-size: 0.6em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* Colors */
+.color1 {
+  background-color: #9e240f;
+}
+.color2 {
+  background-color: #a84c7f;
+}
+.color3 {
+  background-color: #e17b26;
+}
+.color4 {
+  background-color: #27ab45;
+}
+.color5 {
+  background-color: #3e7782;
+}
+.color6 {
+  background-color: #2b7bda;
+}
+.hover-div {
+  position: relative;
+}
+
+.hover-div p {
+  cursor: pointer;
+}
+
+.hidden-list {
+  width: 100%;
+  color: black;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3em rgba(0, 0, 0, 0.473);
+
+  list-style: none;
+}
+.hidden-list li {
+  background: #fff;
+  cursor: pointer;
+  cursor: pointer;
+  padding: 10px 5px;
+  list-style: none;
+}
+.hidden-list li:hover {
+  background-color: rgb(92, 172, 226);
+}
+.hover-div:hover .hidden-list {
+  display: block;
+}
